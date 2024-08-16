@@ -1,12 +1,12 @@
 #include <iostream>
 #include "Person.h"
-
-PersonList deepCopyPersonList(PersonList pl);
+#include <list>
 
 PersonList createPersonList(int n);
+PersonList deepCopyPersonList(PersonList pl);
 
 int main() {
-    int n = 4;
+    int n = 4;  
 
     PersonList originalList = createPersonList(n);
 
